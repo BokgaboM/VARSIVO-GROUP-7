@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ===== Text ===== -->
+    <style name="TextAppearance.Varsivo.ToolbarTitle" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="TextAppearance.Varsivo.ToolbarSubtitle" parent="TextAppearance.Material3.BodySmall">
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="Varsivo.Text.Heading" parent="">
+        <item name="android:textColor">@color/varsivo_navy</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Varsivo.Text.SectionTitle" parent="">
+        <item name="android:textColor">@color/varsivo_navy</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="Varsivo.Text.Body" parent="">
+        <item name="android:textColor">@color/varsivo_text_secondary</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Varsivo.Text.Caption" parent="">
+        <item name="android:textColor">@color/varsivo_text_secondary</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Varsivo.Text.Error" parent="">
+        <item name="android:textColor">@color/varsivo_error</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <!-- ===== Toolbar ===== -->
+    <style name="Widget.Varsivo.Toolbar" parent="Widget.Material3.Toolbar">
+        <item name="android:background">@color/varsivo_navy</item>
+        <item name="titleTextColor">@color/white</item>
+        <item name="subtitleTextColor">@color/white_80</item>
+        <item name="titleTextAppearance">@style/TextAppearance.Varsivo.ToolbarTitle</item>
+        <item name="subtitleTextAppearance">@style/TextAppearance.Varsivo.ToolbarSubtitle</item>
+        <item name="navigationIcon">@drawable/ic_arrow_back</item>
+        <item name="navigationIconTint">@color/white</item>
+        <item name="android:minHeight">64dp</item>
+    </style>
+
+    <!-- ===== Buttons ===== -->
+    <style name="Widget.Varsivo.Button" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/varsivo_navy</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.05</item>
+        <item name="android:minHeight">52dp</item>
+    </style>
+
+    <style name="Widget.Varsivo.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:textColor">@color/varsivo_navy</item>
+        <item name="iconTint">@color/varsivo_navy</item>
+        <item name="strokeColor">@color/varsivo_navy</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:minHeight">48dp</item>
+    </style>
+
+    <!-- ===== Cards ===== -->
+    <style name="Widget.Varsivo.Card" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardBackgroundColor">@color/white</item>
+        <item name="cardCornerRadius">18dp</item>
+        <item name="cardElevation">3dp</item>
+    </style>
+
+    <!-- ===== Text fields ===== -->
+    <style name="Widget.Varsivo.TextInput" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+        <item name="boxStrokeColor">@color/varsivo_navy</item>
+        <item name="hintTextColor">@color/varsivo_navy</item>
+    </style>
+
+    <style name="Widget.Varsivo.TextInput.Dropdown" parent="Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+        <item name="boxStrokeColor">@color/varsivo_navy</item>
+        <item name="hintTextColor">@color/varsivo_navy</item>
+    </style>
+
+    <!-- Fields on the navy sign-up card (white outlines / text) -->
+    <style name="Widget.Varsivo.TextInput.OnNavy" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">28dp</item>
+        <item name="boxCornerRadiusTopEnd">28dp</item>
+        <item name="boxCornerRadiusBottomStart">28dp</item>
+        <item name="boxCornerRadiusBottomEnd">28dp</item>
+        <item name="boxStrokeColor">@color/white</item>
+        <item name="hintTextColor">@color/white</item>
+        <item name="android:textColorHint">@color/white_60</item>
+        <item name="endIconTint">@color/white</item>
+        <item name="errorTextColor">@color/varsivo_error_light</item>
+        <item name="boxStrokeErrorColor">@color/varsivo_error_light</item>
+        <item name="errorIconTint">@color/varsivo_error_light</item>
+    </style>
+
+    <!-- ===== Bottom navigation icons ===== -->
+    <style name="Widget.Varsivo.NavIcon" parent="">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:padding">17dp</item>
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+    </style>
+
+</resources>

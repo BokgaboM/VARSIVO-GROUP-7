@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Shown on the bursary details screen when the API gives no eligibility text -->
+    <string-array name="default_bursary_requirements">
+        <item>South African citizenship</item>
+        <item>Proof of household income</item>
+        <item>Academic results</item>
+        <item>Acceptance or registration at an institution</item>
+    </string-array>
+</resources>

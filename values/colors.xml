@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand colours (sampled from the Figma exports) -->
+    <color name="varsivo_navy">#FF053E7D</color>
+    <color name="varsivo_gold">#FFF8A100</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="white_80">#CCFFFFFF</color>
+    <color name="white_60">#99FFFFFF</color>
+
+    <!-- Backgrounds and text -->
+    <color name="varsivo_background">#FFF4F5F7</color>
+    <color name="varsivo_screen_background">#FFF5F8FC</color>
+    <color name="varsivo_search_bar">#FFECE6F0</color>
+    <color name="varsivo_text">#FF17212B</color>
+    <color name="varsivo_text_secondary">#FF667085</color>
+
+    <!-- Applications tracker status chips -->
+    <color name="varsivo_offer_bg">#FFFAEEDA</color>
+    <color name="varsivo_pending_bg">#FFF8A100</color>
+    <color name="varsivo_submitted_bg">#FFE8F0DD</color>
+
+    <!-- APS "Match" / "Below min" chips on the Explore screen -->
+    <color name="varsivo_match">#FF4CAF50</color>
+    <color name="varsivo_below_min">#FFE57373</color>
+
+    <!-- Bursary card tints (72% opacity over the background photo) -->
+    <color name="varsivo_card_gold_tint">#B8ECC986</color>
+    <color name="varsivo_card_blue_tint">#B8A8BFDE</color>
+
+    <!-- Feedback colours -->
+    <color name="varsivo_success">#FF1F6F54</color>
+    <color name="varsivo_success_light">#FFB6E3A1</color>
+    <color name="varsivo_error">#FFBA1A1A</color>
+    <color name="varsivo_error_light">#FFFFB4AB</color>
+</resources>

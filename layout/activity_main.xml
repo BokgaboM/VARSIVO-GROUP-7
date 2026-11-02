@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Single-activity host. Every screen is a Fragment shown inside the NavHostFragment
+    (see navigation/nav_graph.xml). The Varsivo bottom navigation bar lives here once,
+    and MainActivity shows/hides it depending on the current destination.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/varsivo_navy"
+    android:orientation="vertical">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/navHostFragment"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/nav_graph" />
+
+    <LinearLayout
+        android:id="@+id/bottomNav"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:background="@color/varsivo_navy"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/navHome"
+            style="@style/Widget.Varsivo.NavIcon"
+            android:contentDescription="@string/nav_home"
+            android:src="@drawable/ic_home"
+            app:tint="@color/white" />
+
+        <ImageView
+            android:id="@+id/navSearch"
+            style="@style/Widget.Varsivo.NavIcon"
+            android:contentDescription="@string/nav_search"
+            android:src="@drawable/ic_search"
+            app:tint="@color/white" />
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/navAdd"
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:layout_gravity="center"
+                android:background="@drawable/bg_nav_fab"
+                android:contentDescription="@string/nav_add"
+                android:padding="14dp"
+                android:src="@drawable/ic_add"
+                app:tint="@color/varsivo_navy" />
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/navApplications"
+            style="@style/Widget.Varsivo.NavIcon"
+            android:contentDescription="@string/nav_applications"
+            android:src="@drawable/ic_book"
+            app:tint="@color/white" />
+
+        <ImageView
+            android:id="@+id/navProfile"
+            style="@style/Widget.Varsivo.NavIcon"
+            android:contentDescription="@string/nav_profile"
+            android:src="@drawable/ic_person"
+            app:tint="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>

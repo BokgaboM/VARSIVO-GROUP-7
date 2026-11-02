@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Varsivo</string>
+
+    <!-- ===== Navigation (bottom bar content descriptions) ===== -->
+    <string name="nav_home">Home</string>
+    <string name="nav_search">Search bursaries</string>
+    <string name="nav_add">Apply to a university</string>
+    <string name="nav_applications">Applications</string>
+    <string name="nav_profile">Settings</string>
+
+    <!-- ===== Shared ===== -->
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="retry">Try again</string>
+    <string name="search">Search</string>
+    <string name="clear">Clear</string>
+    <string name="continue_label">Continue</string>
+    <string name="tbc">TBC</string>
+    <string name="student">Student</string>
+    <string name="south_africa">South Africa</string>
+    <string name="view_less">View less</string>
+    <string name="logo_description">Varsivo logo</string>
+    <string name="student_illustration">Student illustration</string>
+    <string name="something_went_wrong">Something went wrong</string>
+
+    <!-- ===== Login ===== -->
+    <string name="student_id">Student ID</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="no_account">"Don\'t you have an account? "</string>
+    <string name="sign_up">Sign up</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="grade">Grade</string>
+    <string name="grade_12">Grade 12</string>
+    <string name="language">Language</string>
+    <string name="language_english">English</string>
+    <string name="reset_password_title">Reset your password</string>
+    <string name="reset_password_message">Enter your Student ID and we\'ll send reset instructions.</string>
+    <string name="send_reset_link">Send reset link</string>
+    <string name="reset_requested">If that Student ID exists, reset instructions have been sent.</string>
+    <string name="google_demo_message">This is a demo. Real Google Sign-In needs backend OAuth setup — for now, continuing will sign you in as the demo student saved on this phone.</string>
+    <string name="error_enter_id_and_password">Enter your Student ID and password.</string>
+    <string name="error_incorrect_login">Incorrect Student ID or password.</string>
+
+    <!-- ===== Register ===== -->
+    <string name="login">Login</string>
+    <string name="back_to_login">Back to login</string>
+    <string name="create_account">Create Account</string>
+    <string name="full_name">Full Name</string>
+    <string name="school_name">School Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="password_rules">At least 8 characters, with a letter and a number.</string>
+    <string name="agree_terms">I agree to the terms and conditions</string>
+    <string name="registration_success_online">Account created! You can now log in.</string>
+    <string name="registration_success_offline">Account created on this phone. The online database could not be reached.</string>
+    <string name="error_name_invalid">Enter your full name (at least 2 characters).</string>
+    <string name="error_student_id_invalid">Student ID must be 4–20 letters or numbers, with no spaces.</string>
+    <string name="error_student_id_taken">That Student ID is already registered.</string>
+    <string name="error_password_weak">Use at least 8 characters with a letter and a number.</string>
+    <string name="error_passwords_dont_match">The passwords do not match.</string>
+    <string name="error_accept_terms">Please accept the terms and conditions.</string>
+
+    <!-- ===== Home ===== -->
+    <string name="greeting_hi">Hi %1$s!</string>
+    <string name="good_morning">Good Morning</string>
+    <string name="good_afternoon">Good Afternoon</string>
+    <string name="good_evening">Good Evening</string>
+    <string name="search_bursaries_hint">Search bursaries</string>
+    <string name="most_urgent">Most urgent</string>
+    <string name="nsfas_closing_soon">NSFAS closing soon</string>
+    <string name="three_days_left">3 Days left</string>
+    <string name="applications">Applications</string>
+    <string name="bursaries">Bursaries</string>
+    <string name="explore">Explore</string>
+    <string name="uniassist">UniAssist</string>
+
+    <!-- ===== Bursaries ===== -->
+    <string name="view_more_bursaries">View more bursaries</string>
+    <string name="closing_soon">Closing soon</string>
+    <string name="closes">Closes</string>
+    <string name="no_bursaries_found">No bursaries found for \"%1$s\"</string>
+    <string name="error_load_bursaries">Couldn\'t load bursaries. Check your internet connection and try again.</string>
+
+    <!-- ===== Bursary details ===== -->
+    <string name="bursary_details">Bursary Details</string>
+    <string name="bursary_details_subtitle">Learn more about this funding opportunity.</string>
+    <string name="funding_opportunity">Funding Opportunity</string>
+    <string name="provided_by">Provided by %1$s</string>
+    <string name="about_this_bursary">About This Bursary</string>
+    <string name="default_bursary_description">This bursary provides financial assistance to eligible students to support their studies.</string>
+    <string name="requirements">Requirements</string>
+    <string name="application_status_open">Application Status: Open</string>
+    <string name="closing_date_label">Closing date: %1$s</string>
+    <string name="apply_for_bursary">APPLY FOR THIS BURSARY</string>
+
+    <!-- ===== Application form (university + bursary) ===== -->
+    <string name="university_application">University Application</string>
+    <string name="university_application_subtitle">Complete your application details below.</string>
+    <string name="bursary_application">Bursary Application</string>
+    <string name="bursary_application_subtitle">Complete your bursary application details.</string>
+    <string name="applying_to">Applying to</string>
+    <string name="applying_for">Applying for</string>
+    <string name="your_details">Your Details</string>
+    <string name="enter_info_to_continue">Enter your information to continue.</string>
+    <string name="email_address">Email Address</string>
+    <string name="institution">University / Institution</string>
+    <string name="course">Course / Programme</string>
+    <string name="submit_application">SUBMIT APPLICATION</string>
+    <string name="university_form_footer">Your information will be used to prepare your university application.</string>
+    <string name="bursary_form_footer">Your information will be used to prepare your bursary application.</string>
+    <string name="application_submitted">Application submitted and synced to the cloud.</string>
+    <string name="application_saved_offline">Application saved on this phone. It will sync when you are back online.</string>
+    <string name="error_email_invalid">Enter a valid email address.</string>
+    <string name="error_field_required">This field is required.</string>
+
+    <!-- ===== Applications tracker ===== -->
+    <string name="search_applications_hint">Search applications</string>
+    <string name="browse_universities">Browse universities to apply</string>
+    <string name="applications_illustration">Applications illustration</string>
+    <string name="no_applications_yet">You haven\'t applied anywhere yet.</string>
+    <string name="no_applications_found">No applications found for \"%1$s\"</string>
+    <string name="application_title">%1$s - %2$s</string>
+    <string name="synced">Synced</string>
+    <string name="offline_will_sync">Offline - will sync...</string>
+    <string name="status_pending">Pending</string>
+    <string name="status_submitted">Submitted</string>
+    <string name="status_offer">Offer</string>
+    <string name="delete_application">Delete application</string>
+    <string name="delete_application_message">Remove your application to %1$s? This cannot be undone.</string>
+
+    <!-- ===== Universities + map ===== -->
+    <string name="find_university">Find Your University</string>
+    <string name="find_university_subtitle">Explore universities and start your application journey.</string>
+    <string name="search_universities">Search universities</string>
+    <string name="view_on_map">VIEW UNIVERSITIES ON MAP</string>
+    <string name="finding_universities">Finding universities...</string>
+    <string name="universities_in_sa">Universities in South Africa</string>
+    <string name="search_results">Search results</string>
+    <string name="no_universities_found">No universities found</string>
+    <string name="try_different_name">Try searching using a different university name.</string>
+    <string name="error_load_universities">Couldn\'t load universities. Check your internet connection and try again.</string>
+    <string name="apply_now">APPLY NOW</string>
+    <string name="university_map">University Map</string>
+    <string name="explore_university_locations">Explore university locations</string>
+    <string name="locating">Locating %1$s</string>
+    <string name="finding_place">Finding %1$s...</string>
+    <string name="map_not_found">Couldn\'t find %1$s on the map.</string>
+    <string name="map_service_unreachable">Couldn\'t reach the map service. Check your internet connection.</string>
+
+    <!-- ===== Explore (APS calculator) ===== -->
+    <string name="aps_score">APS score</string>
+    <string name="check_your_score">Check your score</string>
+    <string name="your_score">Your score: %1$d</string>
+    <string name="estimated_from">(estimated from %1$d subjects)</string>
+    <string name="calculate_aps">Calculate APS</string>
+    <string name="hide_calculator">Hide calculator</string>
+    <string name="enter_best_marks" formatted="false">Enter your best subject marks (%)</string>
+    <string name="subject_mark_hint">Subject %1$d mark</string>
+    <string name="subjects_added">%1$d of %2$d added — more subjects gives a more accurate score</string>
+    <string name="add_subject">+ Add subject</string>
+    <string name="calculate">Calculate</string>
+    <string name="matched_institution">Matched Institution</string>
+    <string name="min_aps">Min APS: %1$d</string>
+    <string name="match">Match</string>
+    <string name="below_min">Below min</string>
+    <string name="view_more_institutions">View more institutions</string>
+    <string name="popular_careers">Popular Careers</string>
+    <string name="view_more_careers">View more careers</string>
+    <string name="error_enter_mark">Enter a mark</string>
+    <string name="error_mark_range">Mark must be 0–100</string>
+    <string name="error_fix_marks">Please fix the highlighted marks.</string>
+
+    <!-- ===== UniAssist / first-year support ===== -->
+    <string name="uniassist_illustration">UniAssist illustration</string>
+    <string name="notifications">Notifications</string>
+    <string name="verified">Verified</string>
+    <string name="verify_to_unlock">Verify your student email to unlock UniAssist</string>
+    <string name="verify_to_unlock_detail">UniAssist gives you your timetable, deadlines and exam countdowns once you\'re enrolled.</string>
+    <string name="todays_timetable">Today\'s timetable</string>
+    <string name="upcoming_deadlines">Upcoming deadlines</string>
+    <string name="timetable_entry">%1$s %2$s</string>
+    <string name="days_left">%1$d days</string>
+
+    <!-- ===== Settings ===== -->
+    <string name="settings">Settings</string>
+    <string name="profile">Profile</string>
+    <string name="student_id_locked">Your Student ID can\'t be changed.</string>
+    <string name="app_language">App language</string>
+    <string name="notifications_title">Deadline &amp; bursary notifications</string>
+    <string name="notifications_detail">Get alerts for closing dates and reminders.</string>
+    <string name="change_password">Change password</string>
+    <string name="current_password">Current password</string>
+    <string name="new_password">New password</string>
+    <string name="update_password">UPDATE PASSWORD</string>
+    <string name="save_changes">SAVE CHANGES</string>
+    <string name="log_out">LOG OUT</string>
+    <string name="log_out_title">Log out?</string>
+    <string name="log_out_message">You will need your Student ID and password to sign in again.</string>
+    <string name="settings_saved_online">Settings saved and synced to the cloud.</string>
+    <string name="settings_saved_offline">Settings saved on this phone. The online database could not be reached.</string>
+    <string name="password_changed">Password updated. Use your new password next time you sign in.</string>
+    <string name="error_current_password_required">Enter your current password.</string>
+    <string name="error_current_password_wrong">Your current password is incorrect.</string>
+    <string name="error_no_account">No account found on this phone. Please log in again.</string>
+    <string name="version_label">Varsivo version %1$s</string>
+</resources>
