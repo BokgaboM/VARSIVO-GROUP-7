@@ -1,0 +1,10 @@
+# Firebase service-account keys (secrets)
+*.log
+*firebase-adminsdk*.json
+.DS_Store
+.env
+.env.local
+.env.txt
+node_modules/
+serviceAccountKey.json
+local.properties
