@@ -12,7 +12,7 @@ Language: **Kotlin** · UI: **XML layouts + Android Views (no Jetpack Compose)**
 
 > 🎥 **Demo video:** `<!-- TODO: paste your unlisted YouTube link here -->`
 >
-> 👥 **Team:** `<!-- TODO: add the four team member names -->`
+> 👥 **Team:** Shaan Motshoalane, Emihle Zifo, Keletso Thamakga, Bokgabo Mohlala
 
 ---
 
